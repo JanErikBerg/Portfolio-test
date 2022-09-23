@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: larger;
+        }
+
+        .eka {
+         max-width: 20%;
+         max-height: 30%;
+
+        }
+        .eka, img {
+            display: block;
+            margin: auto;
+        }
+        .right-header{
+            margin: auto;
+            max-width: 9cm;
+            text-align: center;
+        }
+
+        body {
+            background-color: rgb(255, 255, 255);
+        }
+
+        .right-contact {
+            padding-top: 3cm;
+        }
+
+    </style>
+    <title>Portfolio</title>
+</head>
+
+<nav>
+
+    <a href="index.html">Etusivu</a>
+    <a href="index1.html">Työhistoria</a>
+    <a href="index2.html">Vapaa-aika</a>
+
+</nav>
+<body class="main-content">
+    <div id="eka">
+        <img src="jeb.pgn" alt=" "class="eka">
+   
+        <div class="header-content">
+            <div class="left-header">
+                <div class="h-shape"></div>
+            
+            <div class="right-header">
+                <h1 class="name">
+                    <span> Jan-Erik Berg</span>
+                </h1>
+                <h2>Ohjelmistokehityksen opiskelija Taitotalossa</h2>
+              
+                
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="container about" id="about">
+            
+                <div class="left-about">
+                    <h4>Tietoa minusta</h4>
+                    <p>
+                        Olen ensimmäisen vuoden ohjelmistokehityksen opiskelija Taitotalossa. Päämääräni on valmistua Tieto- ja viestintätekniikan insinööriksi.
+                        Ennen opintojen alkuja, olen työskennellyt yhdeksän vuotta vakuutusalalla monessa eri tehtävässä myynnin, asiakaspalvelun, riskienhallinan sekä mynniin tukitoimintojen parissa. Olen tällä hekellä opintovapaalla nykyisestä asiakaskokemusvastaavan tehtävästäni vakuutusyhtiö Pohjantähden yritysasiakkaat- yksiköstä. Olen osakkaanaa start-up yrityksessä vastaten yrityksen kaupallisesta puolesta.
+                       <p>Alta pääset linkdIn profiiliini</p>    
+                    </p>
+                    <a href="https://www.linkedin.com/in/jan-erik-berg-091994/">linkedin Jan-Erik Berg</a>
+
+                 <h3>Yhteystiedot</h3>
+                 <p>Jan-Erik Berg</p>
+                 <p>puh: 0443349017</p>
+                 <p>sähköposti: j-e.berg@outlook.com</p>   
+                 
+                </div>
+              
+                    <div class="right-contact">
+                        <h5> Ota yhteyttä</h5>
+                        
+                        <form action="j-e.berg@outlook.com" class="contact-form">
+                            <div class="input-control i-c-2">
+                                <input type="text" required placeholder="NIMESI">
+                                <input type="email" required placeholder="SÄHKÖPOSTIOSOITTEESI">
+                            </div>
+                            <div class="input-control">
+                                <input type="text" required placeholder="OTSIKKO">
+                            </div>
+                            <div class="input-control">
+                                <textarea name="" id="" cols="15" rows="8" placeholder="Viestisi..."></textarea>
+                              
+                                <form action="send" method="post">
+                                    <button>send</button>
+                                </form>
+                            </div>
+                            
+                                </a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--tarkista, että lomake toimii-->
+
+    <div class="controls">
+        <div class="control active-btn" data-id="home" >
+            <i class="fas fa-home"></i>
+        </div>
+        <div class="control" data-id="about">
+            <i class="fas fa-user"></i>
+        </div>
+        <div class="control" data-id="portfolio">
+            <i class="fas fa-briefcase"></i>
+        </div>
+        <div class="control" data-id="blogs">
+            <i class="far fa-newspaper"></i>
+        </div>
+        <div class="control" data-id="contact">
+            <i class="fas fa-envelope-open"></i>
+        </div>
+    </div>
+    <div class="theme-btn">
+        <i class="fas fa-adjust"></i>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
